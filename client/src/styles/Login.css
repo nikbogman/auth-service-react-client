@@ -1,0 +1,51 @@
+.Login{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: #282c34;
+    color: white;
+    font-size: calc(10px + 2vmin);
+}
+
+.LoginWithGoogle{
+    margin: 1rem;
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.LoginWithGoogle p{
+    margin-left: 1rem;
+}
+
+.LoginWithGoogle img {
+    height: calc(10px + 2vmin + 1rem);
+}
+
+.LoginForm label{
+    display: block;
+    margin: 1rem;
+}
+.LoginForm input{
+    margin-left: 1rem;
+    font-size: inherit;
+}
+
+.LoginForm button{
+    margin: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #282c34;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: inherit;
+}

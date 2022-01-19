@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #282c34;
+    font-size: calc(10px + 2vmin);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+
